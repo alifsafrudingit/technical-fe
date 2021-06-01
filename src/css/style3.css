@@ -1,0 +1,178 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(231, 231, 231);
+}
+
+.content {
+  width: 60%;
+  background-color: white;
+  border-radius: 4px 4px 0px 0px;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.header-avatar-icon {
+  display: flex;
+}
+
+.avatar {
+  margin: 5px 0 0px 14px;
+  display: flex;
+  width: 80%;
+}
+
+.name-avatar-all {
+  display: flex;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  margin: 20px 0 20px 20px;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.name-avatar {
+  padding: 0px;
+  margin: 25px 0 4px 20px;
+  color: #00c3ff;
+  font-size: 18px;
+}
+
+.name-avatar-next {
+  padding: 0px;
+  margin: 25px 0 4px 6px;
+  color: #616161;
+  font-size: 18px;
+}
+
+.online-time {
+  padding: 0px;
+  margin: 0px 0 20px 20px;
+  color: #8a8a8a;
+}
+
+.icon-ellipsis {
+  text-align: right;
+  width: 20%;
+  margin: 45px 40px 20px 20px;
+}
+
+.descriptions {
+  margin: 0px 0px 30px 30px;
+  color: #8a8a8a;
+}
+
+.image-content {
+  width: 93%;
+  margin-left: 30px;
+}
+
+.icon-content {
+  color: #8a8a8a;
+  margin: 20px 0px 0px 30px;
+}
+
+.fa-share-alt {
+  margin-left: 25px;
+}
+
+.row-message {
+  width: 60%;
+  background-color: #dddddd;
+  margin: 0px auto 10px;
+  border-radius: 0 0 4px 4px;
+}
+
+.hidden-comment {
+  display: flex;
+  margin: 0px 0px 10px 10px;
+  padding: 15px 0px 0px 15px;
+  color: #616161;
+  border-radius: 0 0 3px 3px;
+}
+
+.amount-comment {
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.fas {
+  padding-top: 1.5px;
+}
+
+.comentator {
+  display: flex;
+}
+
+.field-comentator {
+  display: flex;
+  margin-top: 20px;
+}
+
+.name-comentator {
+  color: #616161;
+  margin: 0px 6px 6px 20px;
+}
+
+.time-comment {
+  color: #8a8a8a;
+  margin: 0px;
+}
+
+.field-reply {
+  display: flex;
+}
+
+.reply {
+  color: #029fcf;
+  margin: 0px 25px 0px 20px;
+}
+
+.message {
+  padding: 0px;
+  margin: 0px 0 10px 20px;
+  color: #8a8a8a;
+}
+
+.textarea-message {
+  margin-top: 10px;
+}
+
+textarea {
+  margin: 20px 0px 0px 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.comment-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 4px;
+  color: #146cd8;
+  display: inline-block;
+  margin: 15px 88px;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.comment-button:hover,
+.comment-button:focus {
+  background-color: #e1f1ff;
+}
+
+.comment-button.is-featured {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.comment-button.is-featured:hover,
+.comment-button.is-featured:active {
+  background-color: #269aff;
+}
