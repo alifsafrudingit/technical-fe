@@ -9,15 +9,13 @@ function result(arr1, arr2) {
   // Your Code Here)
   const res = [];
 
-  arr1.every((e1) =>
-    arr2.includes((e2) => {
-      if (e1 > e2) {
-        res.push("true");
-      } else {
-        res.push("false");
-      }
-    })
-  );
+  arr12.map((item, index) => {
+    if (item > arr1[index]) {
+      res.push("true");
+    } else {
+      res.push("false");
+    }
+  });
   return res;
 }
 
